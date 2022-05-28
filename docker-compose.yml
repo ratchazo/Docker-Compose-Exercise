@@ -2,9 +2,9 @@ services:
   web:
     image: nginx
     ports: 
-      - "8080:80"
+      - "80"
 
     app:
-      image: tomcat
+      image: tomcat:9.0.12
       ports:
-        - "8080:80"
+        - "80"
