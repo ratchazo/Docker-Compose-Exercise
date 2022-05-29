@@ -7,4 +7,4 @@ services:
   app:
     image: tomcat:9.0.12
     ports:
-      - "8080:81"
+      - "8081:80"
